@@ -1764,17 +1764,17 @@ nav {
     border-radius: 10px;
   }
   
-  .single-camp-hi:before {
+  /* .single-camp-hi:before {
     position: absolute;
     width: 100%;
     height: 100%;
     content: "";
-    /* background-color: rgba(0, 0, 0, 0.4); */
+    background-color: rgba(0, 0, 0, 0.4);
     top: 0;
     left: 0;
     border-radius: 10px;
     z-index: 1;
-  }
+  } */
   .single-camp-hi img {
     transition: 0.3s;
     transform: scale(1);
