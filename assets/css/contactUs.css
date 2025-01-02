@@ -1,0 +1,362 @@
+/*===============================================================
+                Contact Us 
+===============================================================*/
+
+.contact-us {
+  background-color: #ffffff;
+  /* position: relative; */
+  /* z-index: 222; */
+  /* padding-top: 27px; */
+}
+
+.contact-us-plane-shape {
+  height: 300px;
+  position: absolute;
+  width: 300px;
+  top: 20%;
+}
+
+.contact-us .contact-us-sky-shape {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  z-index: -1;
+}
+
+
+.contact-box h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.contact-box img {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-box-email,
+.contact-box-location,
+.contact-box-phone {
+  text-align: center;
+  width: 33.3%;
+}
+
+.contact-info {
+  padding-left: 0;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 20px 0 rgba(0, 66, 116, 0.1);
+  border-radius: 15px 20px 20px 20px;
+  padding-top: 17px;
+  padding-right: 17px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  row-gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="subject"],
+input[type="datetime-local"],
+textarea {
+  background: #e9ecef;
+  border: 1px solid #e9ecef;
+  outline: 0;
+  width: 100%;
+  padding: 13px 20px;
+  resize: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="subject"],
+input[type="datetime-local"] {
+  height: 60px;
+  text-align: right;
+}
+
+.text-msg {
+  margin-bottom: 15px !important;
+}
+
+textarea {
+  height: 220px;
+  padding-top: 20px;
+}
+
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn-effect:before {
+  transform-origin: left top;
+}
+
+.btn-effect:before,
+.btn-effect:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background-color: var(--second-color);
+  transform: scale(0);
+  z-index: -1;
+  border-radius: inherit;
+  transform-origin: right bottom;
+  transition: opacity ease 0.4s, visibility ease 0.4s, transform ease 0.4s;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  height: 485px;
+}
+
+.padbo-100 {
+  padding-bottom: 100px;
+}
+
+.text__primary {
+  color: var(--color-accent-1) !important;
+}
+
+.form-select,
+input[type="date"],
+input[type="number"] {
+  height: 60px;
+  box-shadow: none;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #e9ecef !important;
+}
+
+.form-control, .form-control:focus {
+  color: #212529;
+  background-color: #e9ecef !important;
+}
+
+@media (max-width: 575.98px) {
+  .contact-box {
+    justify-content: space-evenly !important;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    width: auto;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    padding-bottom: 20px;
+  }
+
+  .contact-info .btn-effect {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-box {
+    justify-content: space-evenly !important;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    width: auto;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    padding-bottom: 20px;
+  }
+
+  .contact-info .btn-effect {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+.main-btn {
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  /* margin-left: 101px; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  padding: 15px 37px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--white-color) !important;
+  background-color: #233f5a;
+  transition: all 0.2s linear;
+}
+
+.contact-box-phone,
+.contact-box-location,
+.contact-box-email {
+  /* padding: 20px; */
+  background: var(--white-color);
+  border-radius: 20px;
+  padding: 2rem;
+  /* height: 150px; */
+  width: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-box-phone p a,
+.contact-box-location p a,
+.contact-box-email p a {
+  max-width: 200px;
+  color: #000;
+}
+
+.contact-box-body {
+  margin-left: 20px;
+}
+
+.contact-box-body i {
+  margin-bottom: 13px;
+  font-size: 34px;
+}
+
+.phone-alt {
+  background-color: #004c58;
+  color: #fff;
+}
+
+.email {
+  background-color: #ea8f1e;
+  color: #fff;
+  border: none;
+}
+
+.whatsapp {
+  background-color: #2bbc57;
+  color: #fff;
+}
+
+.contact-box h2 a {
+  color: #fff;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.map-box img {
+  width: 649px;
+  height: 768px;
+  border-radius: 24px;
+  border: 10px solid #fff;
+  object-fit: cover;
+}
+
+label {
+  text-align: right;
+}
+
+.form-floating>label {
+  top: 0;
+  right: 0;
+}
+#brxe-mhgmoh {
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: nowrap;
+  margin-bottom: 11px;
+}
+
+[class*=brxe-] {
+  max-width: 100%;
+}
+.brxe-block {
+  align-items: flex-start;
+  display: flex
+;
+  flex-direction: column;
+  width: 100%;
+}
+:where(.brxe-divider).horizontal {
+  width: 100%;
+}
+:where(.brxe-divider) {
+  align-items: center;
+  display: flex
+;
+  font-size: 30px;
+  gap: 30px;
+}
+
+#brxe-cbejya.horizontal .line {
+  border-top-color: rgba(0, 0, 0, 0.6);
+}
+
+:where(.brxe-divider).horizontal .line {
+  border-top: 1px solid;
+}
+:where(.brxe-divider) .line {
+  position: relative;
+ 
+  width: 100%;
+}
+
+
+.Send-Now {
+  background-color: #dc3545 !important ;
+}
+
+
+
+
+
+
+
+
+
+
+/*===============================================================
+                  Contact Us 
+  ===============================================================*/
