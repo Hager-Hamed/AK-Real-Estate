@@ -31,7 +31,14 @@
     <link rel="stylesheet" href="./assets/lib/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/lib/jquery/jquery-ui.css" />
     <!-- ============= style  css ============= -->
+       <!-- flat pickr -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+  />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/tailor-made.css" />
+
 </head>
 
 <body>
@@ -157,7 +164,7 @@
                             </a>
                         </div>
                         <a href="./tailor-made.html" class="btn-effect">
-                            تسجيل / دخول
+                           احجز وحدتك
                             <span></span>
                             <span></span>
                             <span></span>
@@ -221,7 +228,140 @@ height: 50vh;
 ====================================================================-->
     
     
+    <!--====================================================================
+              start Tailor Made section
+       ====================================================================-->
+       <section
+       class="tailor-form mb-5"
+       style="background-image: url(https://themexriver.com/wp/goyto/wp-content/uploads/2024/03/shape-1.webp)"
+     >
+       <div class="container">
+         <div class="row align-items-center">
+           <div class="col-lg-12 mx-auto">
+             <div class="tailor-box">
+               <h2 class="tailor-heading"> احجز وحدتك الآن </h2>
+               <form id="contact-form" class="contact-form text-center">
+                 <!--contact-form-->
+                 <div class="row">
+                   <div class="col-md-4">
+                     <div class="form-item mb-4">
+                        <div class="form-floating mb-4">
+                            <input
+                              type="text"
+                              class="form-control border-0"
+                              id="name"
+                              placeholder="Your Name"
+                            />
+                            <label for="name">الاسم بالكامل
+        
+                            </label>
+                          </div>
+                     </div>
+                   </div>
 
+                   <div class="col-md-4">
+                    <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control border-0 mb-4"
+                          id="email"
+                          placeholder=" عنوان البريد الإلكتروني"
+                        />
+                        <label for="email">  عنوان البريد الإلكتروني"</label>
+                      </div>
+                   </div>
+                   <div class="col-md-4">
+                    <div class="form-floating">
+                        <input
+                          type="phone"
+                          class="form-control border-0 mb-4"
+                          id="namphonee"
+                          placeholder="رقم الهاتف"
+                        />
+                        <label for="phone">رقم الهاتف</label>
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="form-item">
+                        <select
+                         name="اسم المشروع"
+                         class="form-select"
+                         aria-label="Default select example"
+                       >
+                         <option selected="">اسم المشروع</option>
+                         <option value="مدينة 6 أكتوبر">مدينة 6 أكتوبر</option>
+                         <option value="الشيخ زايد">الشيخ زايد</option>
+                         <option value="الشروق">الشروق</option>
+                         <option value="المستقبل سيتي">المستقبل سيتي</option>
+                         <option value=" الساحل الشمالي">الساحل الشمالي </option>
+                         <option value="العين السخنة ">العين السخنة </option>       
+                       </select> 
+                   </div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="form-item">
+                        <select
+                         name="اسم المشروع"
+                         class="form-select"
+                         aria-label="Default select example"
+                       >
+                         <option selected="">نوع المشروع</option>
+                         <option value="مشاريع سياحية  ">مشاريع سياحية  </option>   
+                         <option value="مشاريع سكنية ">مشاريع سكنية   </option> 
+                         <option value=" مشاريع تجاري  "> مشاريع تجاري   </option> 
+                         <option value="  ">    </option> 
+                         <option value="  ">    </option> 
+                         <option value="  ">    </option> 
+\
+                       </select> 
+                   </div>
+                   </div>
+
+
+
+                   <div class="col-md-12">
+                    <div class="form-floating mb-4 mt-4">
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          id="subject"
+                          placeholder=" إدخال الموضوع"
+                        />
+                        <label for="subject"> إدخال الموضوع</label>
+                      </div>
+                   </div>
+                   <div class="col-md-12">
+                    <div class="form-floating mb-5">
+                        <textarea
+                          class="form-control border-0"
+                          placeholder="إن كان لديك استفسار..."
+                          id="message"
+                          style="height: 160px"
+                        ></textarea>
+                        <label for="message">إن كان لديك استفسار...</label>
+                      </div>
+                   </div>
+                   <div class="col-md-12">
+                    <div class="text-center">
+                      <button type="submit" class="btn-effect mx-auto">
+                        ارسال
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+
+               </form>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!--====================================================================
+               end Tailor Made section
+        ====================================================================-->
 
     <!--====================================================================
                   End Footer
@@ -480,7 +620,8 @@ height: 50vh;
     <script src="./assets/lib/jquery/jquery-ui.js"></script>
     <script src="./assets/lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="./assets/lib/jquery/jquery.nice-select.min.js"></script>
-
+<!-- flat pickr -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <!-- ================= js ========== -->
     <script src="./assets/js/script.js"></script>
 </body>
