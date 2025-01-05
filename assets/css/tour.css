@@ -582,3 +582,44 @@ table.infotable td, table.infotable th {
     margin-left: 8px;
     font-size: 16px;
 }
+
+.right{
+    position: sticky;
+    top: 0;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 575.98px) {
+
+    .stats-box svg {
+      height: 55px;
+      width: 55px;
+    }
+    .stats-box {
+      padding: 6px 0;
+    }
+    .breadcrumb_contact {
+      padding-top: 32%;
+    }
+    .tour-heading h2 {
+      font-size: 27px;
+      font-weight: 600;
+      color: #221f3f;
+    }
+    
+    .facility-box {
+      width: 45%;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    

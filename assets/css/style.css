@@ -5164,6 +5164,10 @@ textarea,
   line-height: 1.5;
 }
 
+
+/*===============================================================
+    end  Statistics
+===============================================================*/                              
 @media (max-width: 575.98px) {
 
 .stats-box svg {
@@ -5173,8 +5177,27 @@ textarea,
 .stats-box {
   padding: 6px 0;
 }
+.breadcrumb_contact {
+  padding-top: 32%;
+}
+.tour-heading h2 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #221f3f;
 }
 
-/*===============================================================
-    end  Statistics
-===============================================================*/                              
+.facility-box {
+  width: 45%;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
