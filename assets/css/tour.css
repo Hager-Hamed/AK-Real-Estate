@@ -613,7 +613,17 @@ table.infotable td, table.infotable th {
     }
     
     
-    
+    .section-title-span {
+        color: #041126;
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        font-size: 19px;
+        margin: 0;
+        margin-top: 22px;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+    }
     
     
     

@@ -187,6 +187,7 @@ input[type="number"] {
     margin-bottom: 30px;
     width: 100%;
   }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -212,6 +213,7 @@ input[type="number"] {
     margin-bottom: 30px;
     width: 100%;
   }
+
 }
 
 .main-btn {
@@ -352,15 +354,15 @@ label {
   background-color: #dc3545 !important ;
 }
 
-
-
-
-
-
-
-
-
-
 /*===============================================================
                   Contact Us 
   ===============================================================*/
+
+  @media (max-width: 575.98px) {
+    .map-box img {
+      width: 649px;
+      height: 413px;
+    
+    }
+    
+  }
