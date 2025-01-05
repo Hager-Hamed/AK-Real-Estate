@@ -178,3 +178,13 @@ $('.counting').each(function() {
 
 
 /* ===============================  counterUp =============================== */
+
+
+var swiper = new Swiper(".tour-details .mySwiper", {
+  spaceBetween: 30,
+  effect: "fade",
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  }
+});

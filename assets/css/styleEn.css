@@ -56,3 +56,42 @@ body {
 
     text-align: left;
 }
+
+.destination__card-content--round {
+    left: 39px;
+    /* right: 10px; */
+}
+input[type="text"], input[type="email"], input[type="phone"], input[type="url"], input[type="tel"], input[type="search"], input[type="password"], input[type="subject"], input[type="datetime-local"] {
+    height: 60px;
+    text-align: left;
+}
+.form-floating>label {
+    top: 0;
+    left: 0;
+    right:  auto !important;
+}
+
+table.infotable td, table.infotable th {
+    margin: 0;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: .9rem;
+}
+.facility-box ::before {
+    font: var(--fa-font-solid);
+    content: "\f0e7";
+    width: 20px;
+    height: 20px;
+    color: #dc3545;
+    margin-right: 8px;
+    font-size: 16px;
+}
+.styled-list li:before {
+    font: var(--fa-font-solid);
+    content: "\f0c6";
+    width: 20px;
+    height: 20px;
+    color: var(--color-accent-1);
+    margin-right: 10px;
+    font-size: 19px;
+}
