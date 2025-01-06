@@ -83,11 +83,15 @@ textarea {
   position: absolute;
   width: 25%;
   height: 100%;
-  background-color:#c6e4e4;
+  background-color:#ffffff;;
   transform: translateY(150%);
   border-radius: 50%;
   left: calc((var(--n) - 1)* 25%);
   transition: .5s;
   transition-delay: calc((var(--n) - 1)* .1s);
   z-index: -1;
+}
+
+.btn-effect:hover {
+  color: #041126;
 }

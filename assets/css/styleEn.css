@@ -17,7 +17,18 @@ h6 {
 p {
     /* font-family: "Lateef", serif; */
 }
-
+.btn-effect span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--main-color);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 2)* 25%);
+    transition: .5s;
+    transition-delay: calc((var(--n) - 1)* .1s);
+    z-index: -1;
+}
 /*========= Alignment CSS ==========*/
 body {
     font-family: "Tajawal", sans-serif;
@@ -121,4 +132,30 @@ table.infotable td, table.infotable th {
 .footer-widget .footer-link li a {
   font-size: 20px;
   line-height: 25px;
+}
+.about-img img {
+    border-radius: 38px;
+    height: 741px;
+    width: 745px;
+}.tours-item{
+    height: 554px;
+}
+.blog-card.two {
+    display: flex
+;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.national-info a {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.accordion .accordion-content p {
+    font-size: 21px;
+    margin: 15px auto;
+    color: #666;
+    line-height: 1.2;
 }
