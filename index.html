@@ -40,14 +40,14 @@
                           Start Navbar
     ====================================================================-->
 
-    <nav class="nav-bar main-nav-bar ">
+    <nav  id="header" class="nav-bar main-nav-bar sticky-top ">
         <!-- Background Color White -->
         <div class="nav-output">
             <div class="nav-output">
                 <div class="bg-gray">
                     <div class="container-fluid bg-dark text-light px-0 ">
                         <div class="row gx-0 d-none d-lg-flex">
-                            <div class="col-lg-7 px-5 text-end">
+                            <div class="col-lg-7 px-5 text_end">
                                 <div class="h-100 d-inline-flex align-items-center ms-4">
                                     <span class="far fa-envelope ms-2 icons" aria-hidden="true"></span>
                                     <a href="mailto:info@cairotoptours.com"target="_blank"  class="text text-light">
@@ -70,7 +70,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-5 px-5 text-start">
+                            <div class="col-lg-5 px-5 text_start">
                                 <li class="dropdown nav-item dropdown navsLink-hasdropdown text-light  navbar_top">
                                     <a href="#" class=" text-light"> اللغة <i class="fa-solid fa-caret-down"></i></a>
                                     <ul class="dropdown-menu dropdown_menu">
@@ -117,7 +117,7 @@
             </div>
 
             <!--  Navbar -->
-            <div class="container-fluid position-relative  ">
+            <div class="container-fluid position-relative  branding ">
 
                 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 sticky-top shadow-sm">
                     <a href="" class="navbar-brand p-0">
@@ -128,7 +128,7 @@
                         <span class="fa fa-bars"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto py-0">
+                        <div class="navbar-nav  py-0">
                             <a href="./index.html" class="nav-item nav-link active">الرئيسية</a>
                             <a href="./about.html" class="nav-item nav-link">من نحن </a>
                             <a href="./blog.html" class="nav-item nav-link">المدونة</a>
@@ -1181,9 +1181,16 @@
                                     المفضلة لديك
                                 </h2>
                                 <!-- /.sec-title__title -->
-                                <a href="#" class="btn-effect d-inline-block">
+                                <!-- <a href="#" class="btn-effect d-inline-block">
                                     أحجز ألان
                                     <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a> -->
+                                <a href="#" class="btn-effect d-inline-block">
+                                    أحجز الآن
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </a>
                             </div>
                             <!-- /.sec-title -->
@@ -1347,31 +1354,31 @@
 
     <!-- Destination Start -->
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="section-title text-center">
-                <div class="col-12">
-                    <span class="section-title-span">
-                        المدونة
-
-                    </span>
-                    <h2>
-                        احدث اخبار العقارات في جميع مشروعات شركئنا سكنية, تجارية و ادارية من خلال موقع شركه
-                    </h2>
-                </div>
-            </div>
-        </div>
+       
     </div>
 
 
-    <section class="our-blogs position-relative position-relative mt-3 mb-3" id="blogs" data-wow-duration="0.5s"
-        data-wow-delay="1s"
+    <section class="our-blogs position-relative position-relative mt-3 mb-3" id="blogs" 
         style="visibility: visible; animation-duration: 0.5s; animation-delay: 1s; animation-name: slideInLeft;">
         <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-title text-center">
+                    <div class="col-12">
+                        <span class="section-title-span">
+                            المدونة
+    
+                        </span>
+                        <h2>
+                            احدث اخبار العقارات في جميع مشروعات شركئنا سكنية, تجارية و ادارية من خلال موقع شركه
+                        </h2>
+                    </div>
+                </div>
+            </div>
             <div class="row">
 
                 <!-- New Item -->
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog1.jpg" alt="blog"></a>
@@ -1408,7 +1415,7 @@
 
                 <!-- New Item -->
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog2.jpeg" alt="blog"></a>
@@ -1446,7 +1453,7 @@
 
                 <!-- New Item -->
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog3.webp" alt="blog"></a>
@@ -1481,7 +1488,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog4.webp" alt="blog"></a>
@@ -1518,7 +1525,7 @@
 
                 <!-- New Item -->
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog5.webp" alt="blog"></a>
@@ -1556,7 +1563,7 @@
 
                 <!-- New Item -->
                 <div class="col-lg-4">
-                    <div class="blog-item mt-3">
+                    <div class="blog-item mt-3 mb-4">
                         <!-- Blog Image -->
                         <div class="blog-img">
                             <a href="#"><img src="./assets/images/blog6.jpeg" alt="blog"></a>

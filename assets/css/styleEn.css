@@ -23,7 +23,24 @@ body {
     font-family: "Tajawal", sans-serif;
 }
 
+.navbar-nav {
+  display: flex
+;
+  flex-direction: column;
+  padding-left: 0;
+  margin-right: auto;
+}
 
+.text_end {
+  text-align:left  !important;
+}
+.text_start {
+text-align: right !important;
+}
+
+.dropdown-item {
+  text-align: left;
+}
 .destination__card-content--round {
     left: 39px;
 }
@@ -94,4 +111,14 @@ table.infotable td, table.infotable th {
     color: var(--color-accent-1);
     margin-right: 10px;
     font-size: 19px;
+}
+
+.footer-widget .footer-link li span {
+  padding-right: 0;
+  font-size: 10px;
+}
+
+.footer-widget .footer-link li a {
+  font-size: 20px;
+  line-height: 25px;
 }

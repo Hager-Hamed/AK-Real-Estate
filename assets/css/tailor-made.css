@@ -1,3 +1,7 @@
+footer {
+  padding-top: 50px;
+}
+
 .form-floating>label {
   top: 0;
   right: 0 !important;
@@ -53,4 +57,37 @@ textarea {
   border-radius: 10px;
   border: 1px solid #eee;
 }
+}
+
+.btn-effect {
+  color: var(--main-color);
+  border-radius: .5em;
+  background-color: #dc3545;
+  color: var(--white-color);
+  letter-spacing: .1em;
+  text-align: center;
+  line-height: 1.5;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: .5s;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  min-width: 150px;
+  margin: 20px 10px;
+  width: fit-content;
+}
+
+.btn-effect span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color:#c6e4e4;
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1)* 25%);
+  transition: .5s;
+  transition-delay: calc((var(--n) - 1)* .1s);
+  z-index: -1;
 }
